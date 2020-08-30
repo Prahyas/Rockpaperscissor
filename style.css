@@ -33,16 +33,17 @@ section {
 	transition: opacity 0.5s ease;
 }
 .intro h2 {
-	font-size: 50px;
+	font-size: 5vw;
 }
 .intro button,
 .match button {
+	font-size: 3vw;
 	color: white;
-	width: 150px;
-	height: 50px;
+	width: 15vw;
+	height: 5vw;
 	background: none;
 	border: none;
-	font-size: 30px;
+	font-size: 2vw;
 	background-color: #206a5d;
 	border-radius: 5px;
 	text-align: center;
@@ -55,6 +56,9 @@ section {
 	transform: translate(-50%, -50%);
 	transition: opacity 0.5s ease 0.5s;
 }
+.match h2 {
+	font-size: 5vw;
+}
 .winner {
 	text-align: center;
 	font-size: 50px;
@@ -64,6 +68,10 @@ section {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+}
+.hands img {
+	height: 25vw;
+	width: 30vw;
 }
 .player-hand {
 	transform: rotateY(180deg);
